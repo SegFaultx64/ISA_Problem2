@@ -1,0 +1,10 @@
+[
+	{
+		"name": "A",
+		"format": "OP|4|2"
+	},
+	{
+		"name": "B",
+		"format": "OP|6"
+	}
+]
