@@ -6,16 +6,17 @@ Compare1 0 0
 Increment 3 1
 IfDone 0 0
 IncrementProgramCounter 3
+Increment 3 1
 Compare2 0 0
 Increment 3 1
 IfDone 0 0
-IncrementProgramCounter 7
+IncrementProgramCounter 8
 // Success Full Word
-Result 0 1
-Result 0 0
+Result 1
+Result 0
 // Success Half Word
-Result 0 2
-Result 0 0
+Result 2
+Result 0
 // Fail
-Result 0 3
-Result 0 0
+Result 3
+Result 0
