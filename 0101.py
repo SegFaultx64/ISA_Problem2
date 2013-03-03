@@ -1,6 +1,6 @@
 INSTRUCTION_FORMAT = "A"
 
-ASM_NAME = "Increment"
+ASM_NAME = "increment"
 
 def commandExec(param):
     if (param[1] == 1):

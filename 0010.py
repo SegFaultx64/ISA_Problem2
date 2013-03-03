@@ -1,6 +1,6 @@
-INSTRUCTION_FORMAT = "A"
+INSTRUCTION_FORMAT = "B"
 
-ASM_NAME = "LoadQuery"
+ASM_NAME = "init"
 
 def commandExec(param):
     emu.storeReg(4, emu.loadWord(9))
