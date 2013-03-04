@@ -1,6 +1,6 @@
 INSTRUCTION_FORMAT = "A"
 
-ASM_NAME = "immediateIntoReg"
+ASM_NAME = "setImmediate"
 
 def commandExec(param):
     emu.storeReg(param[0], param[1])

@@ -1,14 +1,13 @@
 // Initialize Reg 3 to 0
-init 0
+jumpBackOrInit 0
 // Load the Word from 9 into Reg 4
-init 1
+loadQuery 9
+increment 3 1
+ifDone 0
 compare 0
 increment 3 1
 ifDone 0
-increment 3 1
 compare 1
-increment 3 1
-ifDone 0
 // Success Full Word
 result 1
 result 4
